@@ -14,8 +14,8 @@ body {
 
 
 section p {
-    background-color: green;
-    color: yellow;
+    background-color: bisque;
+    color: black;
 }
 
 h1,h2{
@@ -27,8 +27,8 @@ h1{
 }
 
 h2{
-    background-color: gray;
-    color: orange;
+    background-color: black;
+    color: white;
 }
 
 footer{
@@ -40,7 +40,7 @@ footer{
 
 nav a{
     text-decoration: none;
-    background-color: lightblue;
+    background-color: black;
     color: white;
 }
 
@@ -60,7 +60,7 @@ tbody tr:nth-child(even){
 }
 
 tbody tr:nth-child(odd){
-    background-color: lightblue;
+    background-color: bisque;
 }
 
 /* definir el uso de etiquetas con "id" solo 1 vez en la pagina*/
@@ -89,7 +89,7 @@ tbody tr:nth-child(odd){
     left: 0;
     bottom: 20px;
     width: 20%;
-    background-color: aquamarine;
+    background-color: lightgray;
 
 }
 .contenido {

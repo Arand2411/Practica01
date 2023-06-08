@@ -2,31 +2,54 @@
 
 <html>
     <head>
-        <title>TechShop</title>
+        <title>Los Perros</title>
         <meta charset="UTF-8">  <!-- UTF-8 es para textos en español, tiltes, dieresis etc-->
         <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <header>
-            <h1>TechShop</h1>
+        <header class="header"> 
+            <nav class="nav">
+                <a class="nav-link logo" href="index.html">El mejor amigo del Hombre</a><!-- comment -->         
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="index.html">&triangleleft;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Ejemplo3.html">&triangleright;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="audios.html">Ladridos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="videos.html">Videos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="iFrame.html">Adopcion</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="formulario.html">Formulario</a></li>
+                </ul>
+            </nav>
         </header>
-        <nav>
-        <a href="index.html">&triangleleft;</a>
-        <a href="index.html">Home</a><!-- comment -->
-        <a href="Ejemplo3.html">&triangleright;</a>
-        </nav>
-        <aside> 
-            <h2>Ejemplo 2</h2>  <!-- h1 es para encabezado inicial-->
-            <hr><!-- comment -->
-            <h3>Etiquetas basicas</h3>  <!-- h2 es para encabezado secundario-->
+
+        <aside class="lateral">
+            <div> 
+                <h2>Que comen los perros?</h2>
+                <p>Los perros comen:
+                <p>-Carnes rojas.</p>
+                <p>-Carnes blancas.</p>
+                <p>-Alimentos especiales para perros.</p>
+                <p>-Aceites escenciales.</p>
+
+
+            </div>
         </aside>
-        <section >
-            <!-- p es para parrafos -->         
-            <p>Lorem ipsum <strong>dolor sit amet consectetur </strong>adipiscing elit parturient, dictumst velit nostra dis erat duis primis, vivamus tempor orci arcu quis torquent sed. Vel malesuada netus venenatis ornare fringilla nisl tempor in tellus tortor taciti, felis cum mi est risus purus class aliquet vehicula pulvinar. Scelerisque cursus viverra magnis fusce nam etiam nulla arcu tellus rhoncus, molestie nibh imperdiet diam auctor tempus proin cum egestas vitae volutpat, purus consequat sagittis primis blandit at ligula ornare facilisi.</p>
-            <p>Diam <u>imperdiet curae convallis mattis</u> rhoncus luctus pulvinar eros, tortor turpis facilisi purus ultricies fames nisi. Pulvinar odio phasellus massa at leo aenean lacinia, suscipit feugiat curabitur lacus rutrum est rhoncus velit, ut morbi blandit conubia vulputate maecenas.</p>
-            <p>Platea neque <i>vitae duis mauris nulla morbi aliquam</i> proin nullam commodo hac, eu vulputate at nostra egestas ac sodales et tortor porttitor, dignissim dui per maecenas cursus nibh tempus erat penatibus metus. Cras feugiat netus accumsan mollis mus phasellus laoreet nec nunc tristique, ante nisi rutrum scelerisque varius magna eleifend pretium. Class quisque nunc sapien elementum nullam velit, rutrum duis non natoque sem sed nulla, eget ut curae sociis vestibulum.</p>
+        <section class="contenido">
+            <h1>Datos sobre alimentacion</h1> 
+            <article>
+
+                <p>.</p>
+                <p>Los perros son carnívoros, al igual que sus antepasados, los lobos. Tienen 42 dientes diseñados para desgarrar a sus presas. Entre los cuatro y nueve meses de vida suelen cambiar su dentadura por los dientes definitivos. Además, sus glándulas salivales segregan abundante saliva para dar comienzo al proceso de digestión en la boca.</p>
+                <p>.</p>
+                <p>Debido a la domesticación por parte de los humanos, también suelen comer verduras o cereales cocidos, como el arroz, y alimentos balanceados que concentran todos los nutrientes necesarios para mantener su buena salud. Dependiendo de su edad y estilo de vida, necesitan consumir entre 1300 y 3500 calorías por día.</p>
+                <p> .</p>
+                <figure>
+                    <img src="https://humanidades.com/wp-content/uploads/2017/02/perro-5-e1561680169372.jpg" alt="Perro comiendo" width="500"/>
+
+                </figure>
+            </article>
         </section>
-        <footer>
+        <footer class="pie">
             <p>
                 Derechos Reservados &COPY; 2023
             </p>

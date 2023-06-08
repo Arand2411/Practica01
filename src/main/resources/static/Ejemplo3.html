@@ -3,33 +3,68 @@
 
 <html>
     <head>
-        <title>TechShop</title>
-        <meta charset="UTF-8">  
+        <title>Los Perros</title>
+        <meta charset="UTF-8">  <!-- UTF-8 es para textos en español, tiltes, dieresis etc-->
         <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <header>
-            <h1>TechShop</h1>
+        <header class="header"> 
+            <nav class="nav">
+                <a class="nav-link logo" href="index.html">El mejor amigo del Hombre</a><!-- comment -->         
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Ejemplo2.html">&triangleleft;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Ejemplo4.html">&triangleright;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="audios.html">Ladridos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="videos.html">Videos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="iFrame.html">Adopcion</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="formulario.html">Formulario</a></li>
+                </ul>
+            </nav>
         </header>
-        <nav>
-        <a href="Ejemplo2.html">&triangleleft;</a>
-        <a href="index.html">Home</a><!-- comment -->
-        <a href="Ejemplo4.html">&triangleright;</a>
-        </nav>
-        <aside> 
-            <h1>Ejemplo 3</h1>  
-            <hr>
-            <h2>Pagina Inicial</h2>  
+        <aside class="lateral">
+            <div> 
+                <h2>Tipos de perros: </h2>
+
+                <p>-Perros tipo pastor y boyeros.</p>
+                <p>-Perros tipo Pinscher y Schnauzer.</p>
+                <p>-Terriers.</p>
+                <p>-Teckels.</p>
+                <p>-Perros tipo Spitz y primitivo.</p>
+                <p>-Perros tipo sabueso, de rastro y similares.</p>
+                <p>-Perros de muestra (con habilidad innata para cazar).</p>
+                <p>-Perros de caza en agua y levantadores.</p>
+                <p>-Perros de compañía.</p>
+                <p>-Perros capaces de correr a gran velocidad (lebreles).</p>
+                
+
+
+
+            </div>
         </aside>
-        <section>
-            <h1>Ejemplo de encabezado nivel 1</h1>
-            <h2>Ejemplo de encabezado nivel 2</h2>
-            <h3>Ejemplo de encabezado nivel 3</h3>
-            <h4>Ejemplo de encabezado nivel 4</h4>
-            <h5>Ejemplo de encabezado nivel 5</h5>
-            <h6>Ejemplo de encabezado nivel 6</h6> 
-            </section>
-        <footer>
+        <section class="contenido">
+            <h1>Perros de servicio/compañía</h1>
+            <article>
+                <p>Un animal de servicio significa cualquier perro que está entrenado individualmente para realizar un trabajo o realizar tareas en beneficio de una persona con una discapacidad, incluyendo una discapacidad física, mental, sensorial, psiquiátrica, intelectual u otra discapacidad mental.</p>
+                <p>.</p>
+                <figure>
+                    <img src="https://www.semana.com/resizer/SkXJDyyfMGfcM-PCJshEssmyNSg=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/DIEE6H7PMVCANNDMY43YLZUH5E.jpg" alt="Perro de servicio" width="500"/>
+
+                </figure>
+            </article>
+            
+            <h1>Perros pastores/boyeros</h1>
+            <article>
+                <p>Se llama perro pastor a cualquier perro que ayuda al hombre en el manejo de rebaños de ovejas, cabras y otros animales de granja. A los perros pastores que trabajan con ganado bovino se les conoce como perros boyeros</p>
+                <p>.</p>
+                <figure>
+                    <img src="https://nfnatcane.es/blog/wp-content/uploads/2022/02/perro-pastoreando-ovejas.jpg" alt="Perro de pastoreo" width="500"/>
+
+                </figure>
+            </article>
+            
+        </section>
+        <footer class="pie">
             <p>
                 Derechos Reservados &COPY; 2023
             </p>

@@ -2,33 +2,44 @@
 
 <html>
     <head>
-        <title>TechShop</title>
+        <title>Los Perros</title>
         <meta charset="UTF-8">  <!-- UTF-8 es para textos en español, tiltes, dieresis etc-->
         <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <header>
-            <h1>TechShop</h1>
+        <header class="header"> 
+            <nav class="nav">
+                <a class="nav-link logo" href="index.html">El mejor amigo del Hombre</a><!-- comment -->         
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Ejemplo5.html">&triangleleft;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="videos.html">&triangleright;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="audios.html">Ladridos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="videos.html">Videos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="iFrame.html">Adopcion</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="formulario.html">Formulario</a></li>
+                </ul>
+            </nav>
         </header>
-        <nav>
-            <a href="index.html">&triangleleft;</a>
-            <a href="index.html">Home</a><!-- comment -->
-            <a href="Ejemplo3.html">&triangleright;</a>
-        </nav>
         <aside> 
             <h2>Audios</h2>  <!-- h1 es para encabezado inicial-->
             <hr><!-- comment -->
-            <h3>Uso de audio en una pagina</h3>  <!-- h2 es para encabezado secundario-->
+            <h3>Ladridos</h3>  <!-- h2 es para encabezado secundario-->
         </aside>
         <section >
             <article>
                 <audio controls>
-                    <source src="audios/musica.mp3" type="audio/mpeg">
+                    <source src="audios/ANIMALDOGMIXED_6003_52_1.mp3" type="audio/mpeg">
                     Your browser does not support the <code>audio</code> tag.
                 </audio>
+                <audio controls>
+                    <source src="audios/007762596_prev.mp3" type="audio/mpeg">
+                    Your browser does not support the <code>audio</code> tag.
+                </audio>
+                
             </article>
         </section>
-        <footer>
+        <footer class="pie">
             <p>Derechos Reservados &COPY; 2023</p>
         </footer>
     </body>

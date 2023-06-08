@@ -2,39 +2,50 @@
 
 <html>
     <head>
-        <title>TechShop</title>
+        <title>Los Perros</title>
         <meta charset="UTF-8">  <!-- UTF-8 es para textos en español, tiltes, dieresis etc-->
         <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <header>
-            <h1>TechShop</h1>
+        <header class="header"> 
+            <nav class="nav">
+                <a class="nav-link logo" href="index.html">El mejor amigo del Hombre</a><!-- comment -->         
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="videos.html">&triangleleft;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="iFrame.html">&triangleright;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="audios.html">Ladridos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="videos.html">Videos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="iFrame.html">Adopcion</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="formulario.html">Formulario</a></li>
+                </ul>
+            </nav>
         </header>
-        <nav>
-            <a href="index.html">&triangleleft;</a>
-            <a href="index.html">Home</a><!-- comment -->
-            <a href="Ejemplo3.html">&triangleright;</a>
-        </nav>
+        
+        
+        
         <aside> 
             <h2>Formulario</h2>  <!-- h1 es para encabezado inicial-->
             <hr>
-            <h3>Uso de formularios en una pagina</h3>  <!-- h2 es para encabezado secundario-->
+            <h3>Formulario adopcion</h3>  <!-- h2 es para encabezado secundario-->
         </aside>
         <section >
             <article>
                 <form action="/usuarios/registro" method="POST">
-                    User: <input type="text" name="Username" value="" size="20" /><br/>
-                    Password: <input type="password" name="password" value="" size="1" /><br/>
-                    Name: <input type="text" name="Name" value="" size="35" /><br/>
+                    Nombre: <input type="text" name="Name" value="" size="35" /><br/>
+                    Provincia: <input type="text" name="Name" value="" size="35" /><br/>
                     Age: <input type="number" name="Age" value="" /><br/>
-                    Register Date: <input type="date" name="Age" value="" /><br/>
+                    Provincia: <input type="text" name="Name" value="" size="35" /><br/>
+                    Campo en la propiedad: <input type="text" name="Name" value="" size="35" /><br/>
+                    Tamaño de perro deseado:  <input type="text" name="Name" value="" size="35" /><br/>
+                    Cita para adopcion: <input type="date" name="Age" value="" /><br/>
                     <input type="submit" value="Ingresar" />
                     
 
                 </form>
             </article>
         </section>
-        <footer>
+        <footer class="pie">
             <p>Derechos Reservados &COPY; 2023</p>
         </footer>
     </body>

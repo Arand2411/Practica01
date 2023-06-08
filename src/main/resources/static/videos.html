@@ -2,33 +2,52 @@
 
 <html>
     <head>
-        <title>TechShop</title>
+        <title>Los Perros</title>
         <meta charset="UTF-8">  <!-- UTF-8 es para textos en español, tiltes, dieresis etc-->
         <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <header>
-            <h1>TechShop</h1>
+        <header class="header"> 
+            <nav class="nav">
+                <a class="nav-link logo" href="index.html">El mejor amigo del Hombre</a><!-- comment -->         
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="audios.html">&triangleleft;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="formulario.html">&triangleright;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="audios.html">Ladridos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="videos.html">Videos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="iFrame.html">Adopcion</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="formulario.html">Formulario</a></li>
+                </ul>
+            </nav>
         </header>
-        <nav>
-            <a href="index.html">&triangleleft;</a>
-            <a href="index.html">Home</a><!-- comment -->
-            <a href="Ejemplo3.html">&triangleright;</a>
-        </nav>
+        
+        
         <aside> 
             <h2>Videos</h2>  <!-- h1 es para encabezado inicial-->
             <hr><!-- comment -->
-            <h3>Uso de videos en una pagina</h3>  
+            <h3>Videos de Cachorros </h3>  
         </aside>
         <section >
             <article>  
-                <video width="320" height="240" controls autoplay muted>
-                    <source src="videos/torpedo.mp4" type="video/mp4">
+                <video width="320" height="240" controls>
+                    <source src="videos/puppy_-_1047 (Original).mp4" type="video/mp4">
                     Your browser does not support the <code>video</code> tag.
-                </video>    
+                </video>
+                
+               
+                
+                
+                <video width="320" height="240" controls>
+                    <source src="videos/baby_dog13.mp4" type="video/mp4">
+                    Your browser does not support the <code>video</code> tag.
+                </video>
+                
+                
+                
             </article>
         </section>
-        <footer>
+        <footer class="pie">
             <p>Derechos Reservados &COPY; 2023</p>
         </footer>
     </body>
